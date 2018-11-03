@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">CityRents</string>
+
+
+    <string name="pd">Property Detail</string>
+    <string name="textmessage">:Newly Constructed 2 BHK Apartment for Sale  \nin Vinayak Nagar,999 sqft\nFURNISHED ,CAR PARKING,\n₹ 6200 per sqft </string>
+    <string name="text">;29-1285 Vinayak Nager Neredmet Malkajgiri Secunderbad </string>
+    <string name="Ad">Address</string>
+
+
+    <string name="property">Property Detail</string>
+    <string name="hello">:Newly Constructed 2 BHK Independent for Sale \nin kakathiya Nagar,400 Yards\nFURNISHED,
+    CAR PARKING,\n ₹ 30,000 Per sqft </string>
+    <string name="Address">Address</string>
+    <string name="hi">;29-1415/1 Kakathiya Nagar Neredmet Malkajgiri Secunderbad</string>
+
+
+    <string name="property3">Property Detail</string>
+    <string name="hero">:Newly constructed 2 BHK Independent for sale \nin KPHB ,7th phase,90yards\n Fully FURNISHED,
+     CAR PARKING,\n ₹ 90,000 per sqft </string>
+    <string name="Address3">Address</string>
+    <string name="he">; LIG-557,KPHB 7Th phase, near Ankura hospital,KPHB,500072</string>
+
+
+    <string name="Property4">Property Detail</string>
+    <string name="text1">Newly constructed 2 BHK Independent for sale \nin KPHB ,7th phase,90yards\n Fully FURNISHED,
+     CAR PARKING,\n ₹ 90,000 per sqft</string>
+    <string name="Address4">Address</string>
+    <string name="hi1">LIG-557,KPHB 7Th phase, near Ankura hospital,KPHB,500072</string>
+
+    <string name="navigation1">Home</string>
+    <string name="navigation2">Land Lords</string>
+    <string name="navigation3">Tenants</string>
+    <string name="navigation4">Rental Houses</string>
+    <string name="navigation5">Selling Houses</string>
+    <string name="navigation6">Settings</string>
+    <string name="navigation7">Logout</string>
+
+
+    <string name="open">Navigation</string>
+    <string name="close">Navigation</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="address"> Address:2-1-393/3\nadharsh nagar\n505175\nHyderabad</string>
+    <string name="address1">Address:29-1285\nVinayathnagar\n500056\nHyderabad</string>
+    <string name="address2">Address:29-1415/13/1\nKakathiya nagar,nerdmet\n500056\nHyderabad</string>
+    <string name="address3">Adress:29-1-143\nChampapet\n500012\nHyderabad</string>
+
+
+</resources>

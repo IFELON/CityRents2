@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".User">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp">
+
+                <ImageView
+                    android:id="@+id/images"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/person" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/fn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="First Name"
+                        android:layout_margin="5dp"
+                        android:drawableLeft="@drawable/ic_person_black_24dp"
+                        android:drawablePadding="10dp"/>
+                    <EditText
+                        android:id="@+id/ln"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Last Name"
+                        android:layout_margin="5dp"
+                        android:layout_marginTop="5dp"
+                        android:drawableLeft="@drawable/ic_person_black_24dp"
+                        android:drawablePadding="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Email Adress"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"/>
+            <EditText
+                android:id="@+id/phn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+                android:drawablePadding="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/adrs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="Adress"
+                android:drawableLeft="@drawable/ic_my_location_black_24dp"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:hint="Pincode"
+                android:inputType="number"
+                android:drawableLeft="@drawable/ic_person_pin_circle_black_24dp"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:hint="State"
+                android:drawableLeft="@drawable/ic_location_city_black_24dp"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:id="@+id/images1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_action_name" />
+                <EditText
+                    android:id="@+id/note"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:hint="note"
+                    android:drawableLeft="@drawable/ic_note_add_black_24dp"
+                    android:drawablePadding="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+                <Button
+                    android:id="@+id/sell"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="SELL"
+                    android:textSize="20dp"
+                    android:textColor="#f40c0c"
+                    android:textStyle="bold"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/rent"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="RENT"
+                    android:textColor="#053e01"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:background="@android:color/transparent"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

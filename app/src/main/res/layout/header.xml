@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundnav"
+    android:orientation="vertical"
+    android:layout_height="170dp">
+
+
+
+<ImageView
+    android:id="@+id/img"
+    android:src="@drawable/cityrentslogo"
+    android:layout_marginTop="15dp"
+    android:layout_width="90dp"
+    android:layout_marginLeft="20dp"
+    android:layout_height="85dp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:text="City Rents"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic|bold"
+        android:textColor="#a8d908"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

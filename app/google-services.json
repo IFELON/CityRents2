@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "248801343772",
+    "firebase_url": "https://cityrents-d8765.firebaseio.com",
+    "project_id": "cityrents-d8765",
+    "storage_bucket": "cityrents-d8765.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248801343772:android:d6776ba458a249cb",
+        "android_client_info": {
+          "package_name": "in.vaaraahi.cityrents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248801343772-6v7guqiioqbm9h8skcjcgs9cgg2j1e3o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.vaaraahi.cityrents",
+            "certificate_hash": "b199e93411a973fee851ea2d16f0e521142897cb"
+          }
+        },
+        {
+          "client_id": "248801343772-et55b5s6afp2qi2f894r4493iqcch6ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-LUlMdhn70gdPaJHUEg0_F142xjoBOKE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248801343772-et55b5s6afp2qi2f894r4493iqcch6ak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

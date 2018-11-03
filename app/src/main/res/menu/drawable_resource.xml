@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/home"
+        android:title="@string/navigation1"
+        android:icon="@drawable/homepage"/>
+
+    <item android:id="@+id/land"
+        android:title="@string/navigation2"
+        android:icon="@drawable/ownernav"/>
+
+    <item android:id="@+id/tenants"
+        android:title="@string/navigation3"
+        android:icon="@drawable/tenantsnav"/>
+
+    <item android:id="@+id/rentals"
+        android:title="@string/navigation4"
+        android:icon="@drawable/rentnav"/>
+
+    <item android:id="@+id/sellings"
+        android:title="@string/navigation5"
+        android:icon="@drawable/sellnav"/>
+
+    <item android:id="@+id/settings"
+        android:title="@string/navigation6"
+        android:icon="@drawable/stngsnav"/>
+
+    <item android:id="@+id/logout"
+        android:title="@string/navigation7"
+        android:icon="@drawable/signoutnav"/>
+
+</menu>
